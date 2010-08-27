@@ -1,0 +1,21 @@
+sqlite:
+  :adapter: sqlite
+  :database: vendor/plugins/foreign_key_migrations/spec/db/foreign_key_migrations.sqlite.db
+
+sqlite3:
+  :adapter: sqlite3
+  :database: vendor/plugins/foreign_key_migrations/spec/db/foreign_key_migrations.sqlite3.db
+
+postgresql:
+  :adapter: postgresql
+  :username: postgres
+  :password: postgres
+  :database: foreign_key_migrations_plugin_test
+  :min_messages: ERROR
+
+mysql:
+  :adapter: mysql
+  :host: localhost
+  :username: root
+  :password: 
+  :database: foreign_key_migrations_plugin_test
