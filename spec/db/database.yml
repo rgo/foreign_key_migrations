@@ -17,5 +17,5 @@ mysql:
   :adapter: mysql
   :host: localhost
   :username: root
-  :password: 
+  :password:
   :database: foreign_key_migrations_plugin_test
