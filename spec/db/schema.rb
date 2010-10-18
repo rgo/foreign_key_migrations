@@ -6,16 +6,16 @@ ActiveRecord::Schema.define(:version => 0) do
     t.datetime "updated_at"
   end
 
-  create_table "ideas", :force => true do |t|
-    t.string   "name"
-    t.integer  "user_id"
+  create_table "users", :force => true do |t|
+    t.string "name"
+    t.integer "account_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "users", :force => true do |t|
+  create_table "ideas", :force => true do |t|
     t.string   "name"
-    t.integer  "account_id"
+    t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
