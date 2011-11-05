@@ -1,7 +1,6 @@
+# DEPRECATED: This plugin is not updated anymore. I recommend you SchemaPlus: https://github.com/lomba/schema_plus
+
 # Foreign Key Migrations 
-
-*DEPRECATED: This plugin is not updated anymore. I recommend you SchemaPlus: https://github.com/lomba/schema_plus *
-
 
 Foreign Key Migrations is a plugin that automatically generates foreign-key
 constraints when creating tables. It uses SQL-92 syntax and as such should be
